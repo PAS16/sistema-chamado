@@ -16,12 +16,12 @@ form{
     display: flex;
     flex-direction:column;
     justify-content: center;
-    gap: 10px;
-    width: 750px;
-    height: 250px;
-    background-color: #FFC8FE;
-    padding: 30px;
-
+    gap: 15px;
+    width: 800px;
+    height: 350px;
+    background-color: #4db8ff;
+    padding: 50px;
+    border-radius: 20px;
 }
 label{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -38,7 +38,7 @@ input{
 
 }
 button{
-    background-color: #FE68FC;
+    background-color: #81d1ff;
     width: 267px;
     height: 70px;
     font-size: 32px;
@@ -50,5 +50,13 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black
+
 }
