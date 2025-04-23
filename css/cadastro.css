@@ -7,7 +7,7 @@
 .container{
     display: flex;
     margin-left: 30%;
-    gap: 50px;
+    gap: 70px;
     align-items: center;
     height: 100vh;
 }
@@ -18,7 +18,7 @@ form{
     flex-direction: column;
     padding: 40px;
     border-radius: 60px;
-    gap: 5px;
+    gap: 10px;
 
 }
 
@@ -35,13 +35,15 @@ input{
     border: 0px;
 }
 
-button{
-    background-color: #81d1ff;
-    width: 267px;
-    height: 30px;
-    font-size: 20px;
-    color: #FFFFFF;
-    border-radius: 80px;
-    border: 0px;
-   align-items: self-end;
-}
+a {
+        padding: 10px 20px;
+        background-color: #81d1ff;
+        width: 267px;
+        font-size: 20px;
+        color: #FFFFFF;
+        border-radius: 80px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
